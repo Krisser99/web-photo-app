@@ -1,0 +1,21 @@
+.header {
+  padding: 24px;
+  font-size: 18px;
+  &__link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color ease-out 0.3s;
+    &:hover {
+      color: #198754;
+    }
+  }
+  &__logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+
+.active {
+  color: #198754;
+}
